@@ -3,8 +3,7 @@
 @section('content')
     <div class="container m-3">
         <div class="card" ">
-                                                        <img src="{{ asset('storage/' . $project->cover_image) }}" style="width: 18rem; class="card-img-top"
-            alt="{{ $project->title }}">
+            <img src="{{ asset('storage/' . $project->cover_image) }}" style="width: 18rem;" class="card-img-top" alt="{{ $project->title }}">
             <div class="card-body">
                 <h5 class="card-title">{{ $project->title }}</h5>
                 <p class="card-text">Autore: {{ $project->author }}</p>
