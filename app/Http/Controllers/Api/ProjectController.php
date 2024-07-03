@@ -33,7 +33,7 @@ class ProjectController extends Controller
     } else {
         $data = [
             'success' => false,
-            'message' => 'Project not found'
+            'message' => 'Proggetto non trovato'
         ];
     }
 
